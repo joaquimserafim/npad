@@ -47,7 +47,6 @@
   "pre-commit": [
     "lint",
     "style",
-    "test",
     "complexity",
     "coverage",
     "coverage:check"
