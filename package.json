@@ -1,0 +1,55 @@
+{
+  "name": "pad",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "tape test.js | tap-spec",
+    "lint": "jshint -c .jshintrc *.js",
+    "style": "jscs -p google *.js",
+    "coverage": "istanbul --include-all-sources cover tape test.js",
+    "coverage:check": "istanbul check-coverage",
+    "coverage:open": "open reports/index.html",
+    "complexity": "plato -r -t 'jenkins-client code report' -l .jshintrc -x 'node_modules|reports|test' -d reports/plato .",
+    "complexity:open": "open reports/plato/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaquimserafim/pad.git"
+  },
+  "keywords": [
+    "pad",
+    "left",
+    "right",
+    "string",
+    "util"
+  ],
+  "author": "@joaquimserafim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquimserafim/pad/issues"
+  },
+  "homepage": "https://github.com/joaquimserafim/pad",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "jscs": "^2.11.0",
+    "jshint": "^2.9.1",
+    "plato": "^1.5.0",
+    "pre-commit": "^1.1.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "pre-commit": [
+    "lint",
+    "style",
+    "test",
+    "complexity",
+    "coverage",
+    "coverage:check"
+  ]
+}
