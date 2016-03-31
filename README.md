@@ -14,6 +14,36 @@
 var pad = require('pad')
 
 console.log(pad.left('foo', 5)) // print `  foo`
-console.log(pad.right('bar', 10, '.')) // prints `bar.......`
+console.log(pad.right('bar', 10, '.')) // print `bar.......`
 
+```
+
+### Development
+
+##### this projet has been set up with a precommit that forces you to follow a code style, no jshint issues and 100% of code coverage before commit
+
+
+to run test
+```js
+npm test
+```
+
+to run jshint
+```js
+npm run lint
+```
+
+to run code style
+```js
+npm run style
+```
+
+to run code coverage
+``` js
+npm run coverage
+```
+
+to open the code coverage report
+```js
+npm run coverage:open
 ```
