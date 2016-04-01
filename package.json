@@ -1,7 +1,7 @@
 {
-  "name": "pad",
-  "version": "0.0.0",
-  "description": "",
+  "name": "npad",
+  "version": "1.0.0",
+  "description": "left and right padding for NodeJS",
   "main": "index.js",
   "files": [
     "LICENSE",
@@ -43,6 +43,9 @@
     "pre-commit": "^1.1.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.5.1"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "pre-commit": [
     "lint",
