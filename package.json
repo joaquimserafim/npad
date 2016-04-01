@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/joaquimserafim/pad.git"
+    "url": "https://github.com/joaquimserafim/npad.git"
   },
   "keywords": [
     "pad",
@@ -32,9 +32,9 @@
   "author": "@joaquimserafim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joaquimserafim/pad/issues"
+    "url": "https://github.com/joaquimserafim/npad/issues"
   },
-  "homepage": "https://github.com/joaquimserafim/pad",
+  "homepage": "https://github.com/joaquimserafim/npad",
   "devDependencies": {
     "istanbul": "^0.4.2",
     "jscs": "^2.11.0",

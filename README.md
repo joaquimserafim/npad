@@ -4,6 +4,10 @@ left and right padding for NodeJS
 
 [![Build Status](https://travis-ci.org/joaquimserafim/pad.png?branch=master)](https://travis-ci.org/joaquimserafim/pad)![Code Coverage 100%](https://img.shields.io/badge/code%20coverage-100%25-green.svg?style=flat-square)[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square)](https://github.com/joaquimserafim/pad/blob/master/LICENSE)
 
+##### v1.0.0
+##### NodeJS >= 4
+
+
 ### Instalation
 ```bash
 npm i --save npad
